@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.18.1)
+project("ffpanel")
+add_library(ffpanel SHARED ffpanel.cpp)
+find_library(log-lib log)
+target_link_libraries(ffpanel ${log-lib})

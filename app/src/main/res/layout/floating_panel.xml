@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="220dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#E6000000"
+    android:padding="12dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FF India Headshot"
+        android:textColor="#00FF9C"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/percentText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="70%"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:layout_marginTop="8dp"/>
+
+    <SeekBar
+        android:id="@+id/headshotSeek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="70"
+        android:layout_marginTop="4dp"/>
+
+    <Switch
+        android:id="@+id/enableSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enable Panel"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Antiban active when ON"
+        android:textColor="#AAAAAA"
+        android:textSize="11sp"
+        android:gravity="center"
+        android:layout_marginTop="6dp"/>
+</LinearLayout>
